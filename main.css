@@ -2461,7 +2461,7 @@ padding-top: 80px;
 
 
     .off-screen-menu {
-    background-color: rgb(18, 20, 30);
+    background-color: black;
     height: 100%;
     width: 100%;
     max-width: 200px;
@@ -2501,19 +2501,10 @@ padding-top: 80px;
 
 }
 
-.icons2-1 {
-    width: 30%;
-    height: 100%;
-    background-color: rgb(18, 20, 30);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 10px;
-}
+
 .icons2-2 {
     width: 70%;
     height: 100%;
-    background-color: rgb(18, 20, 30);
     display: flex;
     justify-content: first baseline;
     align-items: center;
