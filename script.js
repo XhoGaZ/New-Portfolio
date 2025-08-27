@@ -113,31 +113,18 @@ document.getElementById("scroll-box1").addEventListener("click", function() {
 
                    
    
-let tl = gsap.timeline();
+const icons = document.querySelectorAll(".feature-small0");
 
-  tl.from(".feature-box", { 
-     y: -700,              
-    duration: 1,         
-    ease: "expo.out",  
-    repeat: 0, 
-  })
+gsap.from(icons, {
+  x:-600, 
+  duration: 1, 
+  stagger: {
+    amount:1.5, 
+    
+  }
+});
 
  
-  .from(".feature-box1", { 
-    y: -800,             
-    duration: 1,         
-    ease: "expo.out", 
-    repeat: 0, 
-  })
-
-
-  .from(".feature-box2", { 
-      y: -900,              
-    duration: 1,         
-    ease: "expo.out",  
-    repeat: 0,
-  });
-
 
   
    let tl2 = gsap.timeline({
@@ -183,7 +170,7 @@ let tl = gsap.timeline();
     block: "start"
   });
 });
- document.querySelector(".feature3, feature-final ").addEventListener("click", function() {
+ document.querySelector(".feature .feature-final ").addEventListener("click", function() {
   document.querySelector(".title-box").scrollIntoView({
     behavior: "smooth",
     block: "start"
