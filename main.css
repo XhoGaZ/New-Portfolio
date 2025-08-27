@@ -161,7 +161,7 @@ span {
 
 
 .off-screen-menu {
-    background-color: rgb(18, 20, 30);
+    background-color: black;
     height: 100%;
     width: 100%;
     max-width: 350px;
@@ -192,7 +192,7 @@ span {
 .icons1 {
     width: 80%;
     height: 40px;
-    background-color: rgb(0, 255, 255);
+    background-color: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -202,7 +202,7 @@ span {
     
 }
 .icons1 h3 {
-    color: rgb(18, 19, 20);
+    color: rgb(184, 115, 51);
 }
 .icons2 {
 
@@ -213,21 +213,19 @@ span {
     margin-bottom: 5px;
 
 }
-.icons2-1 {
-    width: 30%;
-    height: 100%;
-    background-color: rgb(18, 20,30);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .icons2-2 {
-    width: 70%;
+    width: 100%;
     height: 100%;
-    background-color: rgb(18, 20, 30);
+    background-color: black;
     display: flex;
     justify-content: first baseline;
     align-items: center;
+    border-color: rgb(184, 115, 51);
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 .icon {
@@ -769,7 +767,7 @@ span {
     background-size: contain;
     display: flex;
     border-style: solid;
-    border-color: white;
+    border-color: none;
     margin-bottom: 10px;
 }
 .bigbox-header {
@@ -809,24 +807,20 @@ span {
     width: 100%;
     height: 1100px;
     position: relative;
-    background-color: rgb(18, 20, 30);
+    background: linear-gradient(180deg, rgba(184, 115, 51, 1) 10%, rgba(0, 0, 0, 1) 100% );
 
 }
 
 .new-elektrik0 {
     width: 100%;
     height: 85%;
-        background-color: rgb(18, 20, 30);
 
     padding-top: 50px;
     display: flex;
-    border-style: solid;
-    border-color: rgb(0, 255, 255);
 }
 
 .new-elektrik1 {
 width: 35%;
-    background-color: rgb(18, 20, 30);
     flex-direction: column;
     padding-left: 100px;
     padding-right: 40px;
@@ -840,7 +834,6 @@ padding-right: 30px;
 }
 .new-elektrik3 {
     width: 40%;
-    background-color: rgb(18, 20, 30);
     
 }
 .highlight {
@@ -864,9 +857,9 @@ padding-right: 30px;
 
     width: 150px;
     height: 50px;
-    background-color: rgb(0, 255, 255);
+    background-color: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
     border-radius: 5px;
@@ -913,6 +906,7 @@ padding-right: 30px;
     cursor: pointer;
     z-index: 1;
     border-radius: 30px;
+    border-color: transparent;
 }
 
 .avatar {
@@ -1003,11 +997,8 @@ padding-right: 30px;
     width: 100%;
     height: 1100px;
     position: relative;
-    background-color: rgb(18, 20, 30);
+    background: linear-gradient(180deg, rgba(184, 115, 51, 1) 10%, rgba(0, 0, 0, 1) 100% );
     z-index: 3;
-    border-color: rgb(0, 255, 255);
-    border-style: solid;
-    border-color: rgb(0, 255, 255);
 }
 .new-avatar0 {
     width: 100%;
@@ -1020,7 +1011,6 @@ padding-right: 30px;
 
 .new-avatar1 {
 width: 35%;
-    background-color: rgb(18, 20, 30);
     flex-direction: column;
     padding-left: 100px;
     padding-right: 40px;
@@ -1033,7 +1023,6 @@ padding-top: 15px;
 }
 .new-avatar3 {
     width: 40%;
-    background-color: rgb(18, 20,30);
     
 }
 
@@ -1518,6 +1507,7 @@ padding-top: 15px;
 }
 .feature-small0 {
     width: 120px;
+    height: 30px;
     
 }
 
@@ -1532,7 +1522,7 @@ padding-top: 15px;
 
 
     .off-screen-menu {
-    background-color: rgb(18, 20, 30);
+    background-color: black;
     height: 100%;
     width: 100%;
     max-width: 200px;
@@ -1572,23 +1562,14 @@ padding-top: 15px;
 
 }
 
-.icons2-1 {
-    width: 30%;
-    height: 100%;
-    background-color: rgb(18, 20, 30);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 10px;
-}
 .icons2-2 {
-    width: 70%;
+    width: 100%;
     height: 100%;
-    background-color: rgb(18, 20, 30);
+    background-color: black;
     display: flex;
     justify-content: first baseline;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
     .elektrik2 img {
