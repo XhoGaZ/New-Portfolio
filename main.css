@@ -872,7 +872,7 @@ padding-right: 30px;
     height: 200px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding-left: 25px;
 }
 
@@ -2137,10 +2137,9 @@ padding-top: 15px;
 .new-elektrik {
     width: 100%;
     height: 2200px;
+        background: linear-gradient(180deg, rgba(184, 115, 51, 1) 10%, rgba(0, 0, 0, 1) 100% );
+
     position: relative;
-     border-style: solid;
-    border-color: rgb(0, 255, 255);
-    border-width: 1px;
 
 }
 
@@ -2156,14 +2155,13 @@ padding-top: 15px;
 .new-elektrik1 {
 height: 35%;
 width: 100%;
-    background-color: rgb(18, 20, 30);
     padding-left: 40px;
     padding-right: 40px;
 }
 .new-elektrik2 {
 height: 25%;
 width: 100%;
-padding-top: 200px;
+padding-top: 120px;
 padding-left: 15px;
 
    
@@ -2171,8 +2169,7 @@ padding-left: 15px;
 .new-elektrik3 {
     width: 100%;
     height: 40%;
-    background-color: none;
-    padding-top: 90px;
+    padding-top: 50px;
     padding-right: 0px;
     
 }
@@ -2206,12 +2203,11 @@ padding-left: 15px;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 1300px;
+    top: 1400px;
     left: 0px;
     cursor: pointer;
     z-index: 2;
-    border-style: solid;
-    border-color: rgb(180, 190, 200);
+    
 }
 .bigbox6 {
     width: 100%;
@@ -2233,21 +2229,20 @@ padding-left: 15px;
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
-    border-style: solid;
-    border-color: white;
+    
     margin-bottom: 10px;
 }
 .new-avatar {
     width: 100%;
     height: 2200px;
     position: relative;
-    background-color: rgb(18, 20, 30);
-       border-style: solid;
-    border-color: rgb(0, 255, 255);
+    background: linear-gradient(180deg, rgba(184, 115, 51, 1) 10%, rgba(0, 0, 0, 1) 100% );
+       
 }
 .new-avatar0 {
     width: 100%;
     height: 100%;
+    
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -2258,7 +2253,6 @@ padding-left: 15px;
 .new-avatar1 {
 width: 100%;
 height: 35%;
-    background-color: rgb(18, 20, 30);
     flex-direction: column;
     padding-left: 40px;
     padding-right: 40px;
@@ -2268,7 +2262,7 @@ width: 100%;
 height: 25%;
 padding-top: 15px;
 padding-left: 15px;
-padding-top: 140px;
+padding-top: 80px;
 
    
 }
@@ -2276,7 +2270,7 @@ padding-top: 140px;
     width: 100%;
     height: 40%;
     background-color: none;
-        padding-top: 90px;
+        padding-top: 70px;
 
     
 }
@@ -2436,7 +2430,7 @@ padding-top: 140px;
     width: 360px;
     height: 50px;
     position: relative;
-    top: 340px;
+    top: 300px;
     right: 20px;
     display: flex;
 }
@@ -3097,10 +3091,10 @@ padding-top: 140px;
 
 .new-elektrik {
     width: 100%;
-    height: 2200px;
+    height: 2300px;
     position: relative;
      border-style: solid;
-    border-color: rgb(0, 255, 255);
+    background: linear-gradient(180deg, rgba(184, 115, 51, 1) 10%, rgba(0, 0, 0, 1) 100% );
     border-width: 1px;
 
 }
@@ -3117,14 +3111,13 @@ padding-top: 140px;
 .new-elektrik1 {
 height: 35%;
 width: 100%;
-    background-color: rgb(18, 20, 30);
     padding-left: 40px;
     padding-right: 40px;
 }
 .new-elektrik2 {
 height: 25%;
 width: 100%;
-padding-top: 200px;
+padding-top: 210px;
 padding-left: 15px;
 
    
@@ -3133,7 +3126,7 @@ padding-left: 15px;
     width: 100%;
     height: 40%;
     background-color: none;
-    padding-top: 90px;
+    padding-top: 110px;
     padding-right: 0px;
     
 }
@@ -3167,12 +3160,11 @@ padding-left: 15px;
     justify-content: center;
     align-items: center;
     position: relative;
-    top: 1300px;
+    top: 1400px;
     left: 0px;
     cursor: pointer;
     z-index: 2;
-    border-style: solid;
-    border-color: rgb(180, 190, 200);
+    
 }
 .bigbox6 {
     width: 100%;
@@ -3194,17 +3186,15 @@ padding-left: 15px;
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
-    border-style: solid;
-    border-color: white;
+  
     margin-bottom: 10px;
 }
 .new-avatar {
     width: 100%;
     height: 2200px;
     position: relative;
-    background-color: rgb(18, 20, 30);
-       border-style: solid;
-    border-color: rgb(0, 255, 255);
+    background: linear-gradient(180deg, rgba(184, 115, 51, 1) 10%, rgba(0, 0, 0, 1) 100% );
+       
 }
 .new-avatar0 {
     width: 100%;
@@ -3219,7 +3209,6 @@ padding-left: 15px;
 .new-avatar1 {
 width: 100%;
 height: 35%;
-    background-color: rgb(18, 20, 30);
     flex-direction: column;
     padding-left: 40px;
     padding-right: 40px;
@@ -3227,9 +3216,8 @@ height: 35%;
 .new-avatar2 {
 width: 100%;
 height: 25%;
-padding-top: 15px;
 padding-left: 15px;
-padding-top: 140px;
+padding-top: 160px;
 
    
 }
@@ -3237,13 +3225,13 @@ padding-top: 140px;
     width: 100%;
     height: 40%;
     background-color: none;
-        padding-top: 90px;
+        padding-top: 110px;
 
     
 }
 
 .new-avatar .close-button {
-    margin-top: 70px;
+    margin-top: 10px;
 }
 
 
